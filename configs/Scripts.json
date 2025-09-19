@@ -1,0 +1,7 @@
+[
+  {
+    "script_name": "DemoScript",
+    "message": "%{scriptDemoKey}",
+    "script_code": "demoMethod1({id = 1})"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "block_name": "DemoBlock",
+    "block_type": "shape_statement",
+    "block_color": "#ffa211",
+    "block_configs": [
+      {
+        "message": "blocksDemoKey",
+        "params": [
+          {
+            "name": "id",
+            "param_type": "input_value",
+            "data_type": "math_number",
+            "default": "9"
+          }
+        ]
+      }
+    ],
+    "block_code": ["demoMethod1({id})\n"]
+  }
+]
