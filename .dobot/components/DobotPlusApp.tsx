@@ -17,7 +17,7 @@ export type DobotPlusAppProps =
   | (BasicProps & {
       useMqtt: true
       topic?: string
-      onMessage: (data: object | string) => void
+      onMessage: (data: any) => void
       port?: number
     })
   | (BasicProps & {

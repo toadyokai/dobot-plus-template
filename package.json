@@ -1,13 +1,13 @@
 {
   "name": "@dobot-plus/template",
-  "version": "1.2.3",
+  "version": "1.2.7",
   "engines": {
     "node": "20"
   },
   "scripts": {
     "dev": "dpt dev",
     "build": "dpt build",
-    "release": "standard-version && npm publish --access public"
+    "release": "npm publish --access public"
   },
   "dependencies": {},
   "devDependencies": {
@@ -37,7 +37,13 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.9",
     "url": "^0.11.3",
-    "next": "14.2.5"
+    "next": "14.2.5",
+    "process": "^0.11.10",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0",
+    "url-loader": "^4.1.1",
+    "sass": "^1.77.8",
+    "postcss-loader": "^8.1.1"
   },
   "peerDependencies": {}
 }
