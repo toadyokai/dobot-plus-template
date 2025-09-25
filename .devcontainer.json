@@ -1,0 +1,6 @@
+{
+  "postCreateCommand":[
+    "npx pnpm i",
+    "npm install @dobot-plus/cli@latest --global"
+  ]
+}
