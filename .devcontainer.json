@@ -1,8 +1,4 @@
 {
   "image":"mcr.microsoft.com/vscode/devcontainers/typescript-node:20",
-  "postCreateCommand":[
-    "npm install -g pnpm@9.6.0",
-    "pnpm i",
-    "npm install @dobot-plus/cli@latest --global"
-  ]
+  "postCreateCommand":"npm install @dobot-plus/cli@latest --global && pnpm i"
 }
